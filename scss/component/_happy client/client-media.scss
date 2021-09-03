@@ -1,0 +1,28 @@
+@media (max-width: 992px) {
+  .happy_client{
+    .wrapper{
+      padding-top: 20px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .happy_client{
+    padding: 60px 0;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .happy_client{
+    .item{
+      flex-wrap: wrap;
+      p{
+        text-align: center;
+      }
+      .client_name{
+        text-align: center;
+      }
+    }
+  }
+}

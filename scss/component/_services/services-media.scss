@@ -1,0 +1,41 @@
+@media (max-width: 992px) {
+  .services{
+    .services_item{
+      width: 100%;
+      .img{
+        .money{
+          width: 60px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .services{
+    .img{
+      padding: 0;
+      img{
+        width: 60px;
+        padding-bottom: 10px;
+      }
+    }
+    .services_item{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .first_text{
+        text-align: center;
+      }
+      .paragraph{
+        width: 100%;
+        text-align: center;
+      }
+      .img{
+        .money{
+        }
+        width: 40px;
+      }
+    }
+  }
+}

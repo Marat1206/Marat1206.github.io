@@ -1,0 +1,101 @@
+@media (max-width: 992px){
+  .navbar-collapse{
+    text-align: center;
+  }
+  .text-inpt {
+    width: 100%;
+
+    .user_name {
+      top: 30%;
+      left: 5%;
+      width: 16px;
+    }
+
+    .email {
+      width: 16px;
+      top: 30%;
+      left: 5%;
+    }
+      .phone {
+        width: 16px;
+        top: 30%;
+        left: 5%;
+      }
+  }
+
+  .btn_btn{
+    text-align: center;
+    width: 100%;
+  }
+  .banner_wrp{
+    padding: 20px;
+  }
+    .btn-primary{
+      width: 100%;
+    }
+  .banner{
+    .carousel-inner{
+      display: block;
+      left: 3%;
+    }
+    .carousel-control-next{
+      right: 4%;
+    }
+    .carousel-control-prev{
+      left: 3%;
+    }
+  }
+}
+
+@media (max-width: 768px){
+  .banner{
+    .navbar-nav{
+      text-align: center
+    }
+    .carousel-control-next{
+      right: 1%;
+    }
+    .carousel-control-prev{
+      left: 1%;
+    }
+  }
+  .carousel-inner{
+    left: 0!important;
+  }
+}
+
+@media (max-width: 320px) {
+    .text-inpt {
+      .user_name {
+        left: 7%;
+      }
+      .email{
+        left: 7%;
+      }
+      .phone{
+        left: 7%;
+      }
+    }
+  .banner{
+    .carousel-control-prev{
+      top: 63% ;
+    }
+    .carousel-control-next{
+      top: 63%;
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  .banner{
+    .text-inpt{
+      padding: 0;
+    }
+    .btn_btn{
+      padding: 0;
+    }
+  }
+  
+}
+
+

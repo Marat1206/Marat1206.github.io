@@ -1,0 +1,45 @@
+%text_style{
+  color: #394b50;
+  padding-bottom: 25px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+%paragraph_style{
+  color: #7b7b7b;
+  line-height: 25px;
+  font-size: 15px;
+  width: 85%;
+}
+
+%head_style{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 35px;
+  font-family: system-ui;
+  color: $text-color;
+  font-weight: 700;
+}
+
+%sec_head_style{
+  text-align: center;
+  color: #394b50;
+  padding-bottom: 80px;
+}
+
+%item_style{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background: white;
+}
+
+%img_style{
+  width: 120px;
+  height: 100px;
+  padding-right: 20px;
+}
+
+%btn_hover{
+  box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}

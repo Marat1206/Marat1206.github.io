@@ -1,0 +1,32 @@
+header {
+  .navbar-expand-lg {
+    .navbar-collapse{
+      justify-content: flex-end;
+    }
+  }
+}
+
+header {
+  .navbar-light {
+    .navbar-nav{
+      .nav-link{
+        color: #868686;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+
+.nav-link:hover {
+  background: $background-color;
+;
+}
+
+.nav-link:hover{
+  color: white!important;
+}
+
+.text{
+  color: white;
+}

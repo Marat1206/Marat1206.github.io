@@ -1,0 +1,122 @@
+@media (max-width: 992px) {
+  .map{
+    .info{
+      height: 60%;
+      left: 30%;
+      bottom: 47%;
+    }
+    .email_address{
+      ::placeholder{
+        padding-left: 10px;
+      }
+    }
+    .user_name{
+      ::placeholder{
+        padding-left: 10px;
+      }
+    }
+    .form-control{
+      padding-left: 25px;
+    }
+    .btn-primary{
+      width: 35%;
+    }
+    .user_name{
+      padding: 0;
+      margin-right: 10px;
+    }
+    .user_name{
+        .user{
+          left: 7px;
+        }
+      }
+    }
+  }
+
+
+@media (max-width: 768px) {
+  .map{
+    .info p{
+      font-size: 13px;
+    }
+    .info-map{
+      font-size: 20px;
+    }
+    .info{
+      height: 64%;
+      left: 30%;
+      width: 40%;
+    }
+    .info a{
+      font-size: 13px;
+    }
+    .btn.btn-primary{
+      width: 63%;
+    }
+    .user_name{
+      width: 64%;
+      margin: 0 auto;
+    }
+    .email_address{
+      width: 64%;
+      padding: 25px 0;
+      margin: 0 auto;
+    }
+    .newsletter{
+      flex-wrap: wrap;
+      margin-bottom: 60px;
+    }
+    img.email{
+      top: 36px;
+      left: 8px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .map{
+    .btn.btn-primary{
+      width: 64%;
+    }
+  }
+}
+
+
+@media (max-width: 320px) {
+  .map{
+    .newsletter{
+      flex-wrap: wrap;
+      padding-bottom: 0;
+      margin-bottom: 50px;
+    }
+    .user_name{
+      width: 100%;
+      margin: 0 auto;
+      padding-bottom: 10px;
+    }
+    .email_address{
+      width: 100%;
+      padding: 10px 0;
+    }
+    .btn.btn-primary{
+      width: 100%;
+    }
+    img.email{
+      top: 21px;
+      left: 8px;
+    }
+    .info p{
+      font-size: 9px;
+    }
+    .info-arrow{
+      display: none;
+    }
+    .info a{
+      font-size: 7px;
+    }
+    .info-map{
+      font-size: 16px;
+      margin: 0 auto;
+    }
+  }
+}

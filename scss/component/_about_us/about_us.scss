@@ -1,0 +1,48 @@
+.about_us{
+    .col.img{
+     background-image: url("../images/bg_images.png");
+        background-size: cover;
+    }
+}
+.about_us{
+    .content_wrapper{
+        max-width: 550px;
+        width: 100%;
+    }
+}
+
+.about_us{
+    .col.content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background: $background-color;
+        padding: 80px 30px;
+    }
+}
+
+.about_us{
+    .info{
+        color: white;
+        text-transform: uppercase;
+        font-weight: 800;
+        padding-bottom: 30px;
+    }
+}
+
+.lorem{
+    color: white;
+    line-height: 27px;
+    padding-bottom: 60px;
+}
+
+.about_us {
+    .btn.btn-primary.active {
+        background: $background-color;
+        border-color: #e7ad48 !important;
+        padding: 15px 30px 15px 30px;
+    }
+}
+
+
+

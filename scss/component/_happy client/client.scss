@@ -1,0 +1,57 @@
+.happy_client{
+  background: $background-color;
+  padding: 140px;
+  margin-bottom: 120px;
+  h4{
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+
+  }
+  .client_lorem{
+    text-align: center;
+    color: white;
+  }
+  .head{
+    padding-bottom: 50px;
+  }
+    .item{
+      @extend %item_style;
+      &:hover{
+        transform: scale(1.1);
+        transition: 0.5s;
+        background: #709dca;
+        color: white;
+      }
+    }
+  .item {
+      img {
+       @extend %img_style;
+      }
+    }
+  .item_wrapper{
+    .name{
+      text-decoration: none;
+      color: #f78d58;
+      text-transform: uppercase;
+      &:hover{
+        color: #99a9ae;
+      }
+    }
+    .spec{
+      text-decoration: none;
+      color:  #99a9ae;
+      text-transform: uppercase;
+      &:hover{
+        color: #f78d58;
+    }
+   }
+ }
+  .client_name{
+    margin-top: 20px;
+  }
+  .pad{
+    padding-bottom: 20px;
+  }
+}

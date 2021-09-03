@@ -1,0 +1,59 @@
+.work{
+  margin-bottom: 140px;
+  h3{
+    @extend %head_style;
+  }
+}
+
+.work{
+  .work_lorem{
+    text-align: center;
+    color: $text-color;
+    padding-bottom: 80px;
+  }
+  .lorem_work{
+    text-align: center;
+    color: #7b7b7b;
+  }
+}
+
+.work{
+  .arrow_1{
+    position: absolute;
+    top: -30px;
+    right: 30px;
+  }
+  .arrow_2{
+    position: absolute;
+    top: 80px;
+    right: 30px;
+  }
+  .arrow_3{
+    position: absolute;
+    top: -30px;
+    right: 30px;
+  }
+}
+
+.work{
+  .col{
+    padding: 0;
+  }
+  .img{
+    padding-bottom: 100px;
+  }
+.step_1{
+  color: #394b50;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 35px;
+ text-align: center;
+ }
+  .btn.btn-primary.active{
+    background: $background-color;
+    border-color: transparent;
+    text-transform: uppercase;
+    margin-top: 60px;
+  }
+}
