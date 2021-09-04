@@ -17,6 +17,9 @@
     .phone{
       left: 34%;
     }
+    .how_work{
+      padding-top: 10px;
+    }
   }
 }
 
@@ -27,6 +30,25 @@
     }
   }
 }
+
+@media (max-width: 480px) {
+  footer{
+    .second_list{
+      text-align: center;
+      flex-direction: column;
+    }
+    .phone{
+      left: 30%;
+    }
+  }
+  footer a:not(:last-child){
+    padding: 5px 0;
+  }
+  .social_media{
+    align-items: center;
+  }
+}
+
 
 @media (max-width: 320px) {
   footer{
